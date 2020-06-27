@@ -1,0 +1,236 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-image: url('images/bg-2.jpg');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Lexend Tera', sans-serif;
+	color: #fff;
+}
+
+header {
+	height: 100vh;
+}
+
+.navbar-brand {
+	font-family: 'Lexend Tera', sans-serif;
+}
+
+.nav-link {
+	font-family: 'Lexend Tera', sans-serif;
+}
+
+.jumbotron {
+	font-family: 'Lexend Tera', sans-serif;
+	color: #fff;
+	margin-top: 15%;
+	text-shadow: 0px 4px 3px #060606,
+    0px 8px 13px #060606,
+    0px 18px 23px rgba(0,0,0,0.4);
+}
+
+.jumbotron h1 {
+	font-weight: 800;
+	border: 5px solid #fff;
+	padding: .5rem;
+}
+
+.lead {
+	font-weight: 600;
+	padding: .5rem;
+}
+
+/* About */
+
+#about {
+	padding-top: 20%;
+	height: 100vh;
+	padding-bottom: 20rem;
+}
+
+
+.alpha-logo img {
+	width: 254px;
+	height: 210px;
+}
+
+.alpha-text {
+	text-shadow: 0px 4px 3px #060606,
+    0px 8px 13px #060606,
+    0px 18px 23px rgba(0,0,0,0.4);
+} 
+
+.alpha-text h2 {
+	font-weight: 800;
+} 
+
+.alpha-text p {
+	font-weight: 600;
+}
+
+.fas {
+	font-size: 3rem;
+}
+
+/* Meet Our Team */
+
+.team img {
+	border: none;
+}
+
+.team {
+	padding-top: 15%;
+	height: 100vh;
+	padding-bottom: 20rem;
+}
+
+.team h2 {
+	font-weight: 800;
+	text-shadow: 0px 4px 3px #060606,
+    0px 8px 13px #060606,
+    0px 18px 23px rgba(0,0,0,0.4);
+}
+
+.team h5 {
+	font-weight: 800;
+	text-shadow: 0px 4px 3px #060606,
+    0px 8px 13px #060606,
+    0px 18px 23px rgba(0,0,0,0.4);
+}
+
+.team h6 {
+	font-weight: 600;
+	text-shadow: 0px 4px 3px #060606,
+    0px 8px 13px #060606,
+    0px 18px 23px rgba(0,0,0,0.4);
+}
+
+
+/* Services */
+
+#services {
+	padding-top: 10%;
+	height: 100vh;
+	text-shadow: 0px 4px 3px #060606,
+    0px 8px 13px #060606,
+    0px 18px 23px rgba(0,0,0,0.4);
+}
+
+#services h2 {
+	font-weight: 800;
+}
+
+#services h5 {
+	font-weight: 800;
+}
+
+#services p {
+	font-weight: 600;
+}
+
+.contact .fas {
+	font-size: 1.5rem;
+}
+
+.contact {
+	height: 100vh;
+	padding-top: 20%;
+}
+
+.contact h5 {
+	line-height: 3rem;
+}
+
+.navbar.scrolled {
+	background: #000 !important;
+	transition: background 500ms;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+	.navbar.bg-transparent {
+		background: #000 !important;
+	}	
+
+	.jumbotron {
+		padding-top: 55%;
+	}
+
+	.jumbotron h1 {
+		font-size: 2rem;
+	}
+
+	.jumbotron p {
+		font-size: 1rem;
+	}
+
+	.about {
+		padding-top: 50%;
+		padding-bottom: 50%;
+	}
+
+	.alpha-logo img {
+		width: 154px;
+		height: 110px;
+	}
+
+	.alpha-text h2 {
+		font-size: 1.5rem;
+	}
+
+	.alpha-text p {
+		font-size: 1rem;
+	}
+
+	.team {
+		padding-bottom: 70rem;
+		text-align: center;
+	}
+
+	.team img {
+		height: 200px;
+		width: 200px;
+		justify-content: center;
+	}
+
+	.team h5 {
+		font-size: 1rem;
+	}
+
+	.team h6 {
+		font-size: .8rem;
+	}
+
+	#services {
+		padding-top: 50%;
+	}
+
+	#services h2 {
+		font-size: 1.5rem;
+	}
+
+	#services h5 {
+		font-size: 1rem;
+	}
+
+	#services p {
+		font-size: .7rem;
+	}
+
+	#contact {
+		padding-top: 50%;
+	}
+
+	.fas {
+		font-size: 2rem;
+	}
+
+	.footer h6 {
+		font-size: .7rem;
+	}
+}
